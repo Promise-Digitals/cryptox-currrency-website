@@ -19,7 +19,7 @@
 
 .navbar ul li{
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .navbar ul li:hover{
@@ -61,4 +61,31 @@
 
 .nav-right button img{
     width: 12px;
+}
+
+/* Media Query */
+@media (max-width: 900px){
+    .navbar{
+        padding: 20px 8%;
+    }
+
+    .navbar button{
+        gap: 8;
+        padding: 6px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px){
+    .navbar{
+        padding: 20px 5%;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar button img{
+        width: 10px;
+    }
 }
