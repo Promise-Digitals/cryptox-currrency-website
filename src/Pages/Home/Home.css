@@ -18,7 +18,7 @@
 }
 
 .hero h1 span{
-    color: #6660ff;
+    color: #5f5af8;
 }
 
 .hero p{
@@ -49,7 +49,7 @@
 
 .hero form button{
     border: none;
-    background: #6660ff;
+    background: #433fbb;
     color: #fff;
     font-size: 15px;
     padding: 8px 20px;
